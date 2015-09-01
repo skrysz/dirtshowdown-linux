@@ -46,6 +46,13 @@ Unfortunately we will not be able to offer public betas for this game.
 
 # Announcements
 
-**21 August  2015 12:53 BST - GitHub tracker now available**
+**1 September 2015 12:11 BST - Update (BuildID 757342)**
+
+This update should address the following issues:
+* Fix the loading screen lockups issue on both Linux and Mac
+* The Shift key is now definable as an action key on Linux
+* Improved gamepad support on Linux to avoid having to calibrate gamepad on every game launch (the old "Don't trust what the driver says" method is still available, by setting —eon_calibrate_gamepads on the command line)
+
+**21 August 2015 12:53 BST - GitHub tracker now available**
 
 We've opened a GitHub issue tracker for the game. So far we're not aware of any huge issues with this game, but if you have any feel free to let us know here :)
