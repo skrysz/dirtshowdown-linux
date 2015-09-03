@@ -46,6 +46,21 @@ Unfortunately we will not be able to offer public betas for this game.
 
 # Announcements
 
+**3 September 2015 14:48 BST - Update (BuildID 761021)**
+
+This update should address the following issues:
+* SDLGamepad.config was not being parsed correctly, which meant the mappings described in it had no effect. This has been fixed, and the mapping for PS4 pads has been updated so that the triggers are registered as axes, not buttons.
+
+If you still have problems with controllers after this, you may want to try experimenting with your controllers mappings. In the eon.txt log file you will see entries beginning with "Gamepads:" which is information from the gamepad code about what is happening. As an example, my wired Xbox 360 pad using the xpad driver is detected like this:
+
+```
+Gamepads: New potential device at device file '/dev/input/event14'
+Gamepads:     New potential device under path '/dev/input/event14' is 'Microsoft X-Box 360 pad'
+Gamepads:     Device GUID calculated as: 030000005e0400008e02000014010000
+```
+
+You can see the entry for this in SDLGamepad.config. If you are having problems, I'd suggest finding out what Device GUID your controller is detected as, and check its mapping in SDLGamepad.config. You may want to verify it against jstest-gtk or evtest to see if it is correct.
+
 **1 September 2015 12:11 BST - Update (BuildID 757342)**
 
 This update should address the following issues:
