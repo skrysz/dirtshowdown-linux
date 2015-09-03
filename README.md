@@ -61,6 +61,8 @@ Gamepads:     Device GUID calculated as: 030000005e0400008e02000014010000
 
 You can see the entry for this in SDLGamepad.config. If you are having problems, I'd suggest finding out what Device GUID your controller is detected as, and check its mapping in SDLGamepad.config. You may want to verify it against jstest-gtk or evtest to see if it is correct.
 
+You can also enable extra logging from the gamepad system by passing the command line option  --eon_log_gamepads
+
 **1 September 2015 12:11 BST - Update (BuildID 757342)**
 
 This update should address the following issues:
