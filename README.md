@@ -26,7 +26,7 @@ When reporting a new issue, post the following:
   * A detailed description of the issue, including any relevant output
   * A step by step guide for reproducing the issue, if possible
   * Your system information
-  * The game's "eon.txt" log file, which can be found at "~/.local/share/vpltd/dirtshowdown/"
+  * The game's "eon.txt" log file, which can be found at "~/.local/share/vpltd/dirt/"
 
 Post your system information as follows:
 
