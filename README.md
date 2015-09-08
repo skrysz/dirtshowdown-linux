@@ -46,6 +46,12 @@ Unfortunately we will not be able to offer public betas for this game.
 
 # Announcements
 
+**8 September 2015 11:05 BST - Update (BuildID 766171)**
+
+This update should address the following issues:
+* Crashing when disconnected from the Internet (issue #6)
+* Crashing when using the Steam Big Picture onscreen keyboard (issue #9)
+
 **5 September 2015 23:20 BST - Update (BuildID 764084)**
 
 We found an additional bug in our game controller code - controllers where the trigger controls were defined as digital buttons were not correctly translated to XInput LT/RT (which is analog). This is now fixed, so PS2 pads for example should work correctly.
